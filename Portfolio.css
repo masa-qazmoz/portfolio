@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333333;
+}
+
+
+nav {
+    background-color: #0015ff;
+    overflow: hidden;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0;
+    display: inline;
+}
+
+.navbar li a {
+    display: block;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    background-color: #3d4cf9;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+.landing {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #0015ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.intro{
+    background-color: #3d4cf9;
+  height: 500px;
+    position: relative;
+}
+.landing h1 {
+color:white;
+    font-size: 2.5em;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.landing p {
+    font-size: 1.2em;
+    font-family: 'Tangerine', serif;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.welcome-message {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome-message h2 {
+    margin-top: 20px;
+}
+
+.welcome-message p {
+    margin-top: 10px;
+    font-family: 'Tangerine', serif;
+    color: #000000;
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .landing h1 {
+        font-size: 2em;
+    }
+
+    .landing p {
+        font-size: 1em;
+       
+    }
+}
+
